@@ -17,4 +17,3 @@ Purchase Prequalifier Tool, a simple web application designed to help you make i
 ### Prerequisites
 
 - A history of poor financial decision making.
-
