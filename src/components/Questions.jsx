@@ -78,7 +78,7 @@ const QuestionsComponent = () => {
     },
     // GENERAL QUESTIONS
     {
-      text: "Does this align with my overall financial goals?",
+      text: "Does it align with my overall financial goals?",
       choices: ["Yes", "No"],
       category: "General",
       score: {
@@ -129,9 +129,9 @@ const QuestionsComponent = () => {
         Back To Categories
       </Link>
       {currentQuestionIndex < displayQuestions.length && (
-        <div className="question-card bg-yellow-300 p-4 w-[30%] h-[30%] rounded-sm">
+        <div className="question-card bg-yellow-300 p-4 w-full md:w-[70%] lg:w-[50%] xl:w-[30%] rounded-sm">
           <div>
-            <h3 className="question-text poppins text-center text-gray-900 mt-2 mb-3 text-lg ">
+            <h3 className="question-text poppins text-center text-gray-900 mt-2 mb-3 text-lg">
               {displayQuestions[currentQuestionIndex].text}
             </h3>
             <div className="buttons-container flex flex-col">

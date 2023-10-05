@@ -18,9 +18,11 @@ const Home = () => {
   return (
     <>
       <main className="h-[100vh] w-[100vw]">
-        <h1 className="poppins text-white text-6xl flex justify-center mt-6">
-          Check It Before You Wreck It
-        </h1>
+       <div header-container className="mx-auto w-full">
+          <h1 className="poppins text-white text-6xl text-center mt-6">
+            Check It Before You Wreck It
+          </h1>
+       </div>
 
         <div className="options-container flex justify-center mt-[250px]">
           <div className="cards-container poppins flex flex-row gap-3 ">
